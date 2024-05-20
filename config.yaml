@@ -1,0 +1,4 @@
+train_data_path: 'data/ZenithConnect_old.csv'
+model_path: 'models/logitmodel.joblib'
+scaler_path: 'models/scaler.joblib'
+test_data_path: 'data/ZenithConnect_new.csv'
