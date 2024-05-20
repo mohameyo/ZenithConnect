@@ -52,5 +52,19 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/mohameyo/ZenithConnect.git
+   cd ZenithConnect
+
+2. **Create a virtual environment::**
+   
+   For Unix or macOS:
+   ```sh
+   python3 -m venv env
+   source env/bin/activate
+
+   For Windows:
+   ```sh
+   python -m venv env
+   .\env\Scripts\activate
+   
+
