@@ -55,17 +55,78 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/mohameyo/ZenithConnect.git
    cd ZenithConnect
 
-2. **Create a virtual environment::**
-   
+Certainly! Here are the complete steps for setting up and running your project, including using the `--no-cache-dir` option for installing dependencies. You can copy and paste this content into your `README.md` file.
+
+2. **Create a virtual environment:**
+
    For Unix or macOS:
+
    ```sh
    python3 -m venv env
    source env/bin/activate
    ```
-   
+
    For Windows:
+
    ```sh
    python -m venv env
    .\env\Scripts\activate
    ```
 
+3. **Install the dependencies:**
+
+   ```sh
+   pip install --no-cache-dir -r requirements.txt
+   ```
+
+### Running the Application
+
+1. **Run the end-to-end ML pipeline:**
+
+   ```sh
+   python scripts/pipeline.py
+   ```
+
+2. **Start the ML API Endpoint:**
+
+   ```sh
+   python app.py
+   ```
+
+3. **Run the Marketing Chatbot:**
+
+   ```sh
+   python marketing_chatbot.py
+   ```
+   Copy the link that appears in the command prompt to open the Gradio library and happy LLMing!
+
+### Additional Information
+
+- **Deactivate the virtual environment:** When you are done, you can deactivate the virtual environment by running:
+
+  ```sh
+  deactivate
+  ```
+
+- **Updating dependencies:** If you add new dependencies, update the `requirements.txt` file by running:
+
+  ```sh
+  pip freeze > requirements.txt
+  ```
+
+### Troubleshooting
+
+- If you encounter issues with package installation, ensure that your `pip` is up to date:
+
+  ```sh
+  pip install --upgrade pip
+  ```
+
+- If you experience network-related issues, try using a different PyPI mirror:
+
+  ```sh
+  pip install -r requirements.txt -i https://pypi.org/simple
+  ```
+```
+
+This is the end of the project!
