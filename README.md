@@ -128,6 +128,5 @@ Open a new Command Prompt and
   ```sh
   pip install -r requirements.txt -i https://pypi.org/simple
   ```
-```
 
 This is the end of the project!
