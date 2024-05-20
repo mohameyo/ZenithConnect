@@ -93,6 +93,7 @@ Certainly! Here are the complete steps for setting up and running your project, 
    python app.py
    ```
 Open a new Command Prompt and
+
 3. **Run the Marketing Chatbot:**
 
    ```sh
