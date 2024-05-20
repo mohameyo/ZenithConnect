@@ -84,7 +84,7 @@ Certainly! Here are the complete steps for setting up and running your project, 
 1. **Run the end-to-end ML pipeline:**
 
    ```sh
-   python scripts/pipeline.py
+   python pipeline.py
    ```
 
 2. **Start the ML API Endpoint:**
