@@ -1,5 +1,4 @@
-# Zenith Connect AI-Powered Marketing Agent 
-Connecting LLM chatbot to ML model.
+# ZenithConnect AI-Powered Marketing Agent
 
 ## Purpose
 
@@ -30,6 +29,14 @@ The `notebooks` folder is a comprehensive storytelling resource for all projects
 
 The `visualization` folder provides outputs that enable the marketing team to visualize customer demographics, data distribution, and churn contributors. Additionally, it offers a 360-degree overview of ZenithConnect's clients, allowing comparison of individual churn scores and CLTV against client averages. This helps in determining whether the cost to retain a customer is justified.
 
+### Main Scripts
+
+- **pipeline.py:** This script handles the end-to-end machine learning cycle, from data preprocessing to training, evaluating, and saving the model and scalers. It ensures that new data can be processed and predictions can be made.
+  
+- **app.py:** This script creates the ML API endpoint using Flask. The API is used to serve predictions from the trained model.
+
+- **marketing_chatbot.py:** This script runs and interacts with the Llama 3 open-source model through a Gradio interface chatbot. The chatbot allows marketing interactions and predictions, providing an interface for marketing-specific tasks.
+
 ## Getting Started
 
 Follow these instructions to set up and run the project on your local machine for development and testing purposes.
@@ -47,4 +54,3 @@ Ensure you have the following installed on your machine:
    ```sh
    git clone https://github.com/yourusername/yourproject.git
    cd yourproject
-
